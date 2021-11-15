@@ -1,0 +1,30 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$font-stack: 'Roboto', sans-serif;
+
+h1 {
+  font-family: $font-stack;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  display: inline-block;
+  zoom:1;
+  *display:inline;
+  background-color: #3498DC;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  box-shadow: 10px 5px 5px;
+  border: solid #2980B9;
+}
